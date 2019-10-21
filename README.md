@@ -22,7 +22,7 @@ echo "@option.testoption@"
 
 # the following will output the value of the job option, but at the
 # cost of the next example breaking...
-echo "asdfasdfasdf"
+echo "testvalue"
 
 # the following will output an empty string, as Rundeck will
 # substitute  to an empty string (it thinks that it is
