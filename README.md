@@ -17,7 +17,7 @@ You should see output like this:
 ```text
 HELLO I AM THE EXAMPLE PLUGIN. I'LL OUTPUT THE SCRIPT I RECEIEVED STARTING ON THE NEXT LINE
 # the following will not output the value of the job option, it will
-# just output @option.testoption@ literally
+# just output `@option.testoption@` literally
 echo "@option.testoption@"
 
 # the following will output the value of the job option, but at the
@@ -25,13 +25,13 @@ echo "@option.testoption@"
 echo "testvalue"
 
 # the following will output an empty string, as Rundeck will
-# substitute  to an empty string (it thinks that it is
-# an  ?)
+# substitute `` to an empty string (it thinks that it is
+# an `` ?)
 testvariable='testvalue'
 echo ""
 
-# in most cases it's possible to avoid the  syntax by doing
-# $var, but sometimes  is needed. For example trying to print a
+# in most cases it's possible to avoid the `` syntax by doing
+# $var, but sometimes `` is needed. For example trying to print a
 # Bash array will cause Rundeck substitution to get confused
 myarray=(1 2 3)
 echo ""
