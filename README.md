@@ -37,4 +37,4 @@ myarray=(1 2 3)
 echo ""
 ```
 
-Note that `${...}` in comments is substituted..
+Note that even `${...}` in comments is substituted..
