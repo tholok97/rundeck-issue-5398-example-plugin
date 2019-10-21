@@ -10,7 +10,7 @@
 
 ## Usage
 
-Create a new Rundeck job with one option called "testoption" with some default value, and one workflow Node Step: `Issue 5398 example`. Leave the default value of "Script". Run the job, and observe the behavoir described in the issue.
+Create a new Rundeck job with one option called "testoption" with the default value "testvalue", and one workflow Node Step: `Issue 5398 example`. Leave the default value of "Script". Run the job, and observe the behavoir described in the issue.
 
 You should see output like this:
 
